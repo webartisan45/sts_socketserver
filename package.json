@@ -1,0 +1,27 @@
+{
+  "name": "quizstud-socket",
+  "version": "1.0.0",
+  "description": "QuizStud socket server",
+  "main": "server.js",
+  "scripts": {
+    "start": "npm install -g node-gyp && npm install && ls ./node_modules/couchbase && node ./server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.5",
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "couchbase": "^4.3.1",
+    "express": "^4.19.2",
+    "promise": "^8.3.0",
+    "request": "^2.88.2",
+    "socket.io": "^4.7.5",
+    "tough-cookie": "^4.1.4",
+    "underscore": "^1.13.6",
+    "unirest": "^0.6.0"
+  },
+  "volta": {
+    "node":"20.13.1"
+  }
+}
